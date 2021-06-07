@@ -1,0 +1,7 @@
+(function() {
+    var inTopWindow = (window.top === window);
+    if (inTopWindow) return;
+
+    var body = document.body;
+    body.style.background = "url(https://z.moatads.com/fallback/ad.png)"
+})();
